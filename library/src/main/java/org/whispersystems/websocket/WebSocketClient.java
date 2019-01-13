@@ -100,7 +100,7 @@ public class WebSocketClient {
   }
 
   private long generateRequestId() {
-    return Math.abs(new SecureRandom().nextLong());
+    return Math.abs(new SecureRandom().nextInt());
   }
 
 }
